@@ -78,7 +78,7 @@ const NavLinks = () => (
       Location
     </Link>
     <Link href="/contact" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
-      Conta
+      Contact
     </Link>
   </div>
 );
