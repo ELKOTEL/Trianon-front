@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css"; // Add the styles
 const roomData = [
   {
     id: 1,
-    img: "/images/room4.webp", // Replace with actual room images
+    img: "/images/room4.jpg", // Replace with actual room images
     name: "Luxury Suite",
   },
   {

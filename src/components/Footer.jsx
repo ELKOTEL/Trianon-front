@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#C79D77] text-white text-center py-10">
-      <div className="max-w-6xl mx-auto px-6">
+    <footer className="bg-[#3a2410] text-white text-center py-10">
+      <div className="max-w-4xl mx-auto px-5">
 
         {/* Luxury Hotel Branding */}
         <h2 className="text-3xl font-extrabold tracking-wider text-[#F4E1D2] mb-3">

@@ -34,9 +34,9 @@ export default function Rooms() {
   return (
     <div>
       <Banner title="Our Rooms" bgImage="/images/hero1.jpg" />
-      <div className="bg-gradient-to-r from-[#5C4033] to-[#C79D77] min-h-screen text-white pt-12">
+      <div className="bg-gradient-to-r from-amber-600 to-[#C79D77] min-h-screen text-white pt-10">
         <div className="max-w-6xl mx-auto text-center mb-12">
-          <p className="text-lg max-w-3xl mx-auto text-[#E2C8A4]">
+          <p className="text-lg max-w-2xl mx-auto text-white">
             Discover our luxurious rooms designed for the ultimate relaxation. Each room is equipped with premium amenities to make your stay unforgettable.
           </p>
         </div>
@@ -46,14 +46,14 @@ export default function Rooms() {
           {rooms.map((room, index) => (
             <div
               key={room._id}
-              className={`flex flex-col gap-8 py-12 px-20 ${index % 2 === 0 ? "bg-[#E2C8A4]" : "bg-[#C79D77]"}`}
+              className={`flex flex-col gap-8 py-12 px-20 ${index % 2 === 0 ? "bg-white" : "bg-white"}`}
             >
               {/* Room Image Section (2 Images on Top) */}
               <div className="flex mb-6 relative">
                 {/* Left Rectangular Image (1/3 width) */}
                 <div className={`w-1/3 h-[80vh] pt-32 ${index % 2 === 0 ? "" : "order-last"}`}>
-                  <div className={`bg-yellow-800 h-full flex items-end pl-4 pb-4 ${index % 2 === 0 ? "pl-4" : "pr-4 justify-end"}`}>
-                    <h1 className="text-[#F4E1D2] text-3xl font-extrabold tracking-wider">LuxHotel</h1>
+                  <div className={`bg-amber-600 h-full flex items-end pl-4 pb-4 ${index % 2 === 0 ? "pl-4" : "pr-4 justify-end"}`}>
+                    <h1 className="text-[#F4E1D2] text-1 font-serif tracking-wider">Trianon Hotel</h1>
                   </div>
 
                   {/* Overlay box with room description */}

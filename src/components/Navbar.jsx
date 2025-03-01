@@ -39,12 +39,12 @@ const Navbar = () => {
 
       {/* Scrolled Navbar */}
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 transform ${isScrolled ? "bg-[#5C4033]/90 shadow-lg translate-y-0" : "-translate-y-full"
+        className={`fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300 transform ${isScrolled ? "bg-black/90 shadow-lg translate-y-0" : "-translate-y-full"
           }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Logo (Left) */}
-          <Link href="/" className="text-white text-3xl font-extrabold tracking-wider">
+          <Link href="/" className="text-orange-200 text-3xl font-extrabold tracking-wider">
             Trianon
           </Link>
 
@@ -62,22 +62,22 @@ const Navbar = () => {
 
 const NavLinks = () => (
   <div className="hidden md:flex space-x-6">
-    <Link href="/" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Hotel
     </Link>
-    <Link href="/rooms" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/rooms" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Rooms
     </Link>
-    <Link href="/gallery" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/gallery" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Gallery
     </Link>
-    <Link href="/events" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/events" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Events
     </Link>
-    <Link href="/location" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/location" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Location
     </Link>
-    <Link href="/contact" className="text-white text-lg font-medium hover:text-[#C79D77] transition duration-300">
+    <Link href="/contact" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
       Contact
     </Link>
   </div>
@@ -86,7 +86,8 @@ const NavLinks = () => (
 const BookNowButton = () => (
   <Link
     href="/reservation"
-    className="bg-[#C79D77] text-white rounded px-5 py-1 text-lg font-semibold border border-white hover:bg-[#A47C5B] transition duration-300"
+    
+    className="bg-[#C79D77] text-white rounded px-5 py-1 text-lg font-semibold border border-white hover:bg-[#fddf57] transition duration-300"
   >
     Book Now
   </Link>
