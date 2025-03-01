@@ -24,7 +24,7 @@ const Welcome = () => {
               <span className="text-yellow-500 mr-1">★</span>
               <span className="text-yellow-500">★</span>
             </div>
-            <h2 className="text-4xl font-bold mb-4">Welcome to the Luxury Hotel Paris</h2>
+            <h2 className="text-4xl font-bold mb-4">Welcome to the Trianon Hotel Paris</h2>
             <p className="text-xl mb-6">
               An elegant atmosphere of calm near the Palais des Congrès de Paris.
             </p>
