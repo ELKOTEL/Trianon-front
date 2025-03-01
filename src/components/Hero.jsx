@@ -54,7 +54,7 @@ const Hero = () => {
         <div className=" absolute inset-0 flex items-center justify-center z-10 ">
         <div className="z-10 text-center">
           <h1 className="text-5xl font-extrabold mb-6 text-[#F4E1D2]">
-            Welcome to Our Luxury Hotel
+            Welcome to Trianon Hotel
           </h1>
           <p className="text-xl mb-6 text-[#E2C8A4]">
             Experience elegance and comfort in the heart of the city
