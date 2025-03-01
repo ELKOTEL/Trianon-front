@@ -13,7 +13,7 @@ const ExploreLocation = () => {
           <p className="text-lg mb-8">
             Discover our hotel's perfect location in the heart of the city, surrounded by stunning attractions and vibrant culture.
           </p>
-          <Link href="/explore-location" className="inline-block text-[#F4E1D2] underline font-semibold text-xl">
+          <Link href="/location" className="inline-block text-[#F4E1D2] underline font-semibold text-xl">
             Explore the Location
           </Link>
         </div>
