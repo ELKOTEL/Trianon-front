@@ -22,14 +22,15 @@ const Navbar = () => {
     <>
       {/* Transparent Navbar */}
       <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-end">
           {/* Logo (Left) */}
-          <Link href="/" className="text-[#F4E1D2] text-3xl font-extrabold tracking-wider">
+          <Link href="/" className="text-white text-3xl font-extrabold tracking-wider">
+          <img src="/images/logo3.png"  alt=""  className="w-32 "/>
             Trianon
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-8 ">
             <LanguageSwitcher language={language} setLanguage={setLanguage} />
             <NavLinks />
             <BookNowButton />
@@ -62,22 +63,22 @@ const Navbar = () => {
 
 const NavLinks = () => (
   <div className="hidden md:flex space-x-6">
-    <Link href="/" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Hotel
     </Link>
-    <Link href="/rooms" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/rooms" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Rooms
     </Link>
-    <Link href="/gallery" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/gallery" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded  ">
       Gallery
     </Link>
-    <Link href="/events" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/events" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Events
     </Link>
-    <Link href="/location" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/location" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Location
     </Link>
-    <Link href="/contact" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300">
+    <Link href="/contact" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Contact
     </Link>
   </div>
@@ -97,7 +98,7 @@ const LanguageSwitcher = ({ language, setLanguage }) => (
   <select
     value={language}
     onChange={(e) => setLanguage(e.target.value)}
-    className="bg-transparent border border-white text-white px-3 py-1 text-lg rounded cursor-pointer hover:bg-white hover:text-[#A47C5B] transition duration-300"
+    className="bg-black bg-opacity-25 border border-white text-white px-3 py-1 text-lg rounded cursor-pointer hover:bg-white hover:text-[#A47C5B] transition duration-300"
   >
     <option value="EN" className="text-black">EN</option>
     <option value="FR" className="text-black">FR</option>
