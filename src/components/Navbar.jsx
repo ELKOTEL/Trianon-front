@@ -62,7 +62,8 @@ const Navbar = () => {
 };
 
 const NavLinks = () => (
-  <div className="hidden md:flex space-x-3">
+  <div className="hidden md:flex space-x-2">
+    
     <Link href="/" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Hotel
     </Link>
