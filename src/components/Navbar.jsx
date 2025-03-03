@@ -22,11 +22,12 @@ const Navbar = () => {
     <>
       {/* Transparent Navbar */}
       <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8 ">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center ">
           {/* Logo (Left) */}
-          <Link href="/" className="text-white text-3xl font-extrabold tracking-wider relative">
-          <img src="/images/logoa.png"  alt=""  className="w-48  "/>
-          <img src="/images/logol.png"  alt=""  className="w-48  absolute top-0 left-0 animate-spin-slow "/>
+          <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
+          <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
+          <img src="/images/logo2.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
+          <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
@@ -34,6 +35,7 @@ const Navbar = () => {
             <LanguageSwitcher language={language} setLanguage={setLanguage} />
             <NavLinks />
             <BookNowButton />
+            
           </div>
         </div>
       </nav>
@@ -45,8 +47,10 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Logo (Left) */}
-          <Link href="/" className="text-orange-200 text-3xl font-extrabold tracking-wider">
-            Trianon
+          <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
+          <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
+          <img src="/images/logo2.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
+          <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
