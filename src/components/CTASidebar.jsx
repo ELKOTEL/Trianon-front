@@ -20,7 +20,7 @@ const CTASidebar = () => {
       />
       {/* Google Map */}
       <CTAIcon
-        href="https://www.google.com/maps"
+        href="https://maps.app.goo.gl/rc7VKch3L7YSXDJy5"
         icon={<FaMapMarkerAlt />}
         bgColor="bg-[#5C4033]"
       />
@@ -32,7 +32,7 @@ const CTASidebar = () => {
       />
       {/* Email */}
       <CTAIcon
-        href="mailto:info@example.com"
+        href="mailto:contact@trianonhotel.com"
         icon={<FaEnvelope />}
         bgColor="bg-[#3A4A56] text-[#5C4033]"
       />

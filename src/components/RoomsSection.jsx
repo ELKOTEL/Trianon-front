@@ -49,7 +49,7 @@ const RoomsSection = () => {
               alt={room.name}
               className="w-full h-[75vh] object-cover rounded-lg"
             />
-            <div className="absolute inset-0 bg-black opacity-50"></div>
+            <div className="absolute inset-0 bg-[#C79D77] opacity-0"></div>
           </div>
         ))}
       </Slider>

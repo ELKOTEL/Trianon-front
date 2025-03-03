@@ -3,6 +3,12 @@ import { useEffect, useState } from "react";
 import { fetchRooms, urlFor } from "../../lib/sanity"; // Fetch room data
 import { FaBed, FaUser, FaRulerCombined } from "react-icons/fa"; // Room icons
 import Banner from "../../components/Banner"; // Banner Component
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination ,Autoplay} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 export default function Rooms() {
   const [rooms, setRooms] = useState([]);
@@ -92,17 +98,31 @@ export default function Rooms() {
 
                 {/* Right Square Image (2/3 width) */}
                 <div className={`w-2/3 flex flex-col justify-between ${index % 2 === 0 ? "" : "order-first"}`}>
-                  <div>
-                    {room.images && room.images.length > 0 && (
-                      <img
-                        src={urlFor(room.images[0]).width(800).url()}
-                        alt={`Room ${room.name}`}
-                        className="w-full h-full object-cover shadow-xl"
-                      />
-                    )}
-                  </div>
+                <div>
+                <Swiper
+                  modules={[ Pagination, Autoplay]}
+                  spaceBetween={10}
+                  slidesPerView={1}
+                  pagination={{ clickable: true }}
+                  className="w-full h-full shadow-xl"
+                >
+                  {room.images && room.images.length > 0 ? (
+                    room.images.map((img, imgIndex) => (
+                      <SwiperSlide key={imgIndex}>
+                        <img
+                          src={urlFor(img).width(800).url()}
+                          alt={`Room ${room.name}`}
+                          className="w-full h-full object-cover   "
+                        />
+                      </SwiperSlide>
+                    ))
+                  ) : (
+                    <p>No images available</p>
+                  )}
+                </Swiper>
+                </div>
                   {/* Room Info Icons (Persons, Bed Type, Surface) */}
-                  <div className="flex gap-4 items-center text-lg pl-10">
+                  <div className="flex gap-4 items-center text-lg pl-10 text-[#C79D77] ">
                     <div className="flex items-center gap-2">
                       <FaUser />
                       <span>{room.persons}</span>

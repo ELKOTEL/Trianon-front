@@ -20,7 +20,7 @@ const Contact = () => {
                 <FaPhone className="text-[#C79D77] text-xl" />
                 <div>
                   <p className="font-semibold">Phone:</p>
-                  <p>+33 7 71 58 89 24</p>
+                  <p> <a   href="tel:+33 7 71 58 89 24"> +33 7 71 58 89 24</a></p>
                 </div>
               </div>
 
@@ -28,7 +28,7 @@ const Contact = () => {
                 <FaEnvelope className="text-[#C79D77] text-xl" />
                 <div>
                   <p className="font-semibold">Email:</p>
-                  <p>contact@trianonhotel.com</p>
+                  <p> <a href="mailto:contact@trianonhotel.com" > contact@trianonhotel.com</a></p>
                 </div>
               </div>
 

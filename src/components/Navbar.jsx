@@ -21,16 +21,16 @@ const Navbar = () => {
   return (
     <>
       {/* Transparent Navbar */}
-      <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-end">
+      <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8 ">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Logo (Left) */}
-          <Link href="/" className="text-white text-3xl font-extrabold tracking-wider">
-          <img src="/images/logo3.png"  alt=""  className="w-32 "/>
-            Trianon
+          <Link href="/" className="text-white text-3xl font-extrabold tracking-wider relative">
+          <img src="/images/logoa.png"  alt=""  className="w-48  "/>
+          <img src="/images/logol.png"  alt=""  className="w-48  absolute top-0 left-0 animate-spin-slow "/>
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
-          <div className="flex items-center space-x-8 ">
+          <div className="flex items-center space-x-8  ">
             <LanguageSwitcher language={language} setLanguage={setLanguage} />
             <NavLinks />
             <BookNowButton />
