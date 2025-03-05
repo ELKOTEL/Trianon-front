@@ -26,7 +26,7 @@ const Navbar = () => {
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
           <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2b.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
+          <img src="/images/logo2c.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
           <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
           <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2b.png"  alt=""  className=" w-10 animate-rotateInfinite "/>
+          <img src="/images/logo2c.png"  alt=""  className=" w-10 animate-rotateInfinite "/>
           <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
