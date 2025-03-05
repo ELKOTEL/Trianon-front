@@ -21,12 +21,12 @@ const Navbar = () => {
   return (
     <>
       {/* Transparent Navbar */}
-      <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8 ">
-        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center ">
+      <nav className="absolute top-0 left-0 right-0 z-50 pb-4 pt-8  ">
+        <div className="max-w-7xl mx-auto px-6 flex justify-between items-center    ">
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
           <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
+          <img src="/images/logo2b.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
           <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
           <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
+          <img src="/images/logo2b.png"  alt=""  className=" w-10 animate-rotateInfinite "/>
           <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
           </Link>
 
