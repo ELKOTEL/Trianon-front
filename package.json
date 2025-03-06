@@ -12,6 +12,8 @@
     "@react-google-maps/api": "^2.20.6",
     "@sanity/client": "^6.28.1",
     "@sanity/image-url": "^1.1.0",
+    "@stripe/react-stripe-js": "^3.3.0",
+    "@stripe/stripe-js": "^5.9.2",
     "@svgr/webpack": "^8.1.0",
     "framer-motion": "^12.4.10",
     "leaflet": "^1.9.4",

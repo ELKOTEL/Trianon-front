@@ -163,11 +163,11 @@ const Checkout = () => {
             </div>
 
             <button
-              type="submit"
-              className="mt-6 w-full py-3 px-6 bg-[#F4E1D2] text-[#5C4033] font-semibold rounded-lg shadow-lg hover:bg-[#E2C8A4] transition duration-300"
-            >
-              Confirm Booking
-            </button>
+  onClick={() => router.push("/reservation/payment")}
+  className="w-full py-3 px-6 bg-[#F4E1D2] text-[#5C4033] font-semibold rounded-lg shadow-lg hover:bg-[#E2C8A4] transition duration-300"
+>
+  Continuer au paiement
+</button>
           </form>
         </div>
       </div>

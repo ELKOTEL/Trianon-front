@@ -9,7 +9,7 @@ const Welcome = () => {
       <div className="flex items-center justify-center max-w-6xl mx-auto p-4">
         
         {/* Image on the left */}
-        <div className="flex-shrink-0 w-1/3 h-[75vh]">
+        <div className="flex-shrink-0 w-1/3 h-[75vh] overflow-hidden">
           <img 
             src="/images/reception.jpg"  // Replace with your image path
             alt="Hotel"

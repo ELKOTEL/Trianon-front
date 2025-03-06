@@ -25,9 +25,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center    ">
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
-          <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2b.png"  alt=""  className=" w-10  animate-rotateInfinite"/>
-          <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
+          <img src="/images/logo1.png"  alt=""  className="h-9 w-full "/>
+          <img src="/images/logo2b.png"  alt=""  className=" w-7 animate-rotateInfinite"/>
+          <img src="/images/logo3.png"  alt=""  className=" h-9 w-full  "/>
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
