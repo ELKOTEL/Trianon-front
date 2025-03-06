@@ -47,7 +47,7 @@ const RoomsSection = () => {
             <img
               src={room.img}
               alt={room.name}
-              className="w-full h-[75vh] object-cover rounded-lg"
+              className="w-full h-[75vh] object-cover "
             />
             <div className="absolute inset-0 bg-[#C79D77] opacity-0"></div>
           </div>
@@ -55,11 +55,11 @@ const RoomsSection = () => {
       </Slider>
 
       {/* Overlay box with room description */}
-      <div className="absolute top-1/4 left-0 w-1/3 bg-white p-8 z-10 rounded-lg shadow-xl">
-        <h3 className="text-2xl font-semibold text-[#5C4033] mb-4">
+      <div className="absolute top-20 left-0 w-1/3 bg-black/50 p-8 z-10 shadow-xl">
+        <h3 className="text-2xl font-semibold text-white mb-4">
           Modern Rooms
         </h3>
-        <p className="text-lg text-[#5C4033] mb-6">
+        <p className="text-lg text-white mb-6">
           These cozy rooms offer comfortable accommodation with a double bed.
           Apple TV technology and free Wi-Fi make them ideal for business
           travelers. Each room possesses an individual high-speed Wi-Fi provided
@@ -67,7 +67,7 @@ const RoomsSection = () => {
         </p>
         <a
           href="/rooms"
-          className="inline-block text-[#5C4033] underline font-semibold"
+          className="inline-block text-white  underline font-semibold"
         >
           VIEW ALL ROOMS
         </a>
