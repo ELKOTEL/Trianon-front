@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 const Welcome = () => {
   return (
     <div id='welcome' className="h-screen w-full bg-[#F4E1D2] flex items-center justify-center">
@@ -12,7 +13,7 @@ const Welcome = () => {
           <img 
             src="/images/reception.jpg"  // Replace with your image path
             alt="Hotel"
-            className="w-full h-full object-cover rounded-lg"
+            className="w-full h-full object-cover rounded-lg animate-zoomInAb"
           />
         </div>
         

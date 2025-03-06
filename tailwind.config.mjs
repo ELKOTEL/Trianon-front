@@ -20,11 +20,17 @@ export default {
             transform: 'rotate(600deg)',
           },
         },
+        zoomInAb: {
+          '0%, 100%': { transform: 'scale(1)' },          // Slightly zoomed in
+          '50%': { transform: 'scale(1.1)' },          // Zooms out to normal size
+        },
       },
       animation: {
         rotateInfinite: 'rotateInfinite 10s linear infinite',
         'spin-slow': 'spin 30s  linear infinite',
+        zoomInAb: 'zoomInAb 8s ease-in-out  infinite',       // Match duration with maskReveal
       },
+
     },
   },
   plugins: [],
