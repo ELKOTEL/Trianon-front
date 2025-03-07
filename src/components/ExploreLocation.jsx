@@ -9,12 +9,12 @@ const ExploreLocation = () => {
       
       <div className="relative z-10 flex items-center justify-center h-full text-center text-white px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-bold mb-6">An Exceptional Location</h2>
+          <h2 className="text-4xl font-bold mb-6">Un Emplacement Exceptionnel</h2>
           <p className="text-lg mb-8">
-            Discover our hotel's perfect location in the heart of the city, surrounded by stunning attractions and vibrant culture.
+          Situé en plein centre de Saint-Ouen, à quelques pas de la station de métro et à proximité immédiate de la mairie, l’Hôtel Trianon bénéficie d’un emplacement stratégique, idéal pour explorer la ville. 
           </p>
           <Link href="/location" className="inline-block text-[#F4E1D2] underline font-semibold text-xl">
-            Explore the Location
+          Découvrir la Localisation
           </Link>
         </div>
       </div>

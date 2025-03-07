@@ -55,21 +55,18 @@ const RoomsSection = () => {
       </Slider>
 
       {/* Overlay box with room description */}
-      <div className="absolute top-20 left-0 w-1/3 bg-black/50 p-8 z-10 shadow-xl">
+      <div className="absolute top-14 left-0 w-1/3 bg-black/50 p-8 z-10 shadow-xl">
         <h3 className="text-2xl font-semibold text-white mb-4">
-          Modern Rooms
+        Chambres Modernes
         </h3>
         <p className="text-lg text-white mb-6">
-          These cozy rooms offer comfortable accommodation with a double bed.
-          Apple TV technology and free Wi-Fi make them ideal for business
-          travelers. Each room possesses an individual high-speed Wi-Fi provided
-          by the Apple TV technology.
+        Nos chambres allient confort, élégance et praticité pour s’adapter à tous les séjours. Que vous voyagiez seul, en couple ou en famille, chaque espace est soigneusement conçu pour offrir une expérience à la fois agréable et relaxante. Profitez d’un hébergement raffiné, pensé pour votre bien-être, dans une atmosphère chaleureuse et accueillante.
         </p>
         <a
           href="/rooms"
           className="inline-block text-white  underline font-semibold"
         >
-          VIEW ALL ROOMS
+          VOIR TOUTES LES CHAMBRES
         </a>
       </div>
     </div>

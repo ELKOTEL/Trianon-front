@@ -8,6 +8,7 @@ import Welcome from "../components/Welcome"
 import RoomsSection from "../components/RoomsSection"
 import ExploreLocation from "../components/ExploreLocation"
 import EventsSection from "../components/EventsSection"
+import Services from "../components/Services"
 
 
 
@@ -19,6 +20,7 @@ const Home = () => {
       <Welcome/>
       <RoomsSection/>
       <ExploreLocation/>
+      <Services/>
       <EventsSection/>
 
       {/*  Section */}

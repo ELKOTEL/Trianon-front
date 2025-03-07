@@ -48,9 +48,9 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Logo (Left) */}
           <Link href="/" className="text-white  font-extrabold tracking-wider flex items-end gap-1">
-          <img src="/images/logo1.png"  alt=""  className="h-12 w-full "/>
-          <img src="/images/logo2b.png"  alt=""  className=" w-10 animate-rotateInfinite "/>
-          <img src="/images/logo3.png"  alt=""  className=" h-12 w-full  "/>
+          <img src="/images/logo1.png"  alt=""  className="h-9 w-full "/>
+          <img src="/images/logo2b.png"  alt=""  className=" w-7 animate-rotateInfinite"/>
+          <img src="/images/logo3.png"  alt=""  className=" h-9 w-full  "/>
           </Link>
 
           {/* Right Section (Language, Links, Book Now) */}
@@ -69,19 +69,19 @@ const NavLinks = () => (
   <div className="hidden md:flex space-x-2">
     
     <Link href="/" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
-      Hotel
+      Hôtel
     </Link>
     <Link href="/rooms" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
-      Rooms
+      Chambres
     </Link>
     <Link href="/gallery" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded  ">
-      Gallery
+      Galerie
     </Link>
     <Link href="/events" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
-      Events
+      Événements
     </Link>
     <Link href="/location" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
-      Location
+      Localisation
     </Link>
     <Link href="/contact" className="text-white text-lg font-medium hover:text-[#fddf57] transition duration-300 bg-black bg-opacity-25 px-3 py-1 rounded ">
       Contact
@@ -95,7 +95,7 @@ const BookNowButton = () => (
     
     className="bg-[#C79D77] text-white rounded px-5 py-1 text-lg font-semibold border border-white hover:bg-[#fddf57] transition duration-300"
   >
-    Book Now
+    RÉSERVEZ
   </Link>
 );
 
@@ -105,8 +105,8 @@ const LanguageSwitcher = ({ language, setLanguage }) => (
     onChange={(e) => setLanguage(e.target.value)}
     className="bg-black bg-opacity-25 border border-white text-white px-3 py-1 text-lg rounded cursor-pointer hover:bg-white hover:text-[#A47C5B] transition duration-300"
   >
-    <option value="EN" className="text-black">EN</option>
     <option value="FR" className="text-black">FR</option>
+    <option value="EN" className="text-black">EN</option>
   </select>
 );
 

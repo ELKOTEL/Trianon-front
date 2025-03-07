@@ -54,14 +54,14 @@ const Hero = () => {
         <div className=" absolute inset-0 flex items-center justify-center z-10 ">
         <div className="z-10 text-center">
           <h1 className="text-5xl font-extrabold mb-6 text-[#ffdfb1]">
-            Welcome to Trianon Hotel
+            Bienvenue à l'Hôtel Trianon
           </h1>
           <p className="text-xl mb-6 text-[#fccd8c]">
-            Experience elegance and comfort in the heart of the city
+            Découvrez l'élégance et le confort en plein cœur de la ville.
           </p>
           <Link href="/reservation">
             <button className="bg-[#F4E1D2] text-[#5C4033] font-semibold py-3 px-6 rounded-lg hover:bg-[#E2C8A4] transition duration-300">
-              Book Your Stay
+            RÉSERVEZ VOTRE SÉJOUR
             </button>
           </Link>
         </div>
