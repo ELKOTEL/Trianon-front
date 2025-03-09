@@ -52,6 +52,9 @@ const Checkout = () => {
           <p className="text-lg max-w-3xl mx-auto text-[#E2C8A4]">
             Please review your booking details and enter your information to complete the reservation.
           </p>
+          <p className="text-lg max-w-3xl mx-auto text-[#E2C8A4]">
+            Please review your booking details and enter your information to complete the reservation.
+          </p>
         </div>
 
         <div className="max-w-4xl mx-auto bg-white p-8 rounded-lg shadow-2xl text-[#5C4033]">
