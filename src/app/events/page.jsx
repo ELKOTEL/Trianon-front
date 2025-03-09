@@ -14,7 +14,7 @@ const Events = () => {
 
   return (
     <div>
-      <Banner title="Events" bgImage="/images/hero1.jpg" />
+      <Banner title="Events" bgImage="/images/eventsbanner.jpeg" />
       <div className="bg-gradient-to-r from-[#5C4033] to-[#C79D77] min-h-screen text-white">
         {/* First Section: Meeting Rooms */}
         <div className="bg-[#E2C8A4]">
