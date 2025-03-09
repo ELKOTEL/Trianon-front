@@ -56,7 +56,7 @@ export default function Rooms() {
             >
               {/* Room Image Section (2 Images on Top) */}
               <div className="flex mb-6 relative">
-                {/* Left Rectangular Image (1/3 width) */}
+                {/* Left Rectangule (1/3 width) */}
                 <div className={`w-1/3 h-[80vh] pt-32 ${index % 2 === 0 ? "" : "order-last"}`}>
                   <div className={`bg-amber-600 h-full flex items-end pl-4 pb-4 ${index % 2 === 0 ? "pl-4" : "pr-4 justify-end"}`}>
                     <h1 className="text-[#F4E1D2] text-1 font-serif tracking-wider">Trianon Hotel</h1>
@@ -97,14 +97,14 @@ export default function Rooms() {
                 </div>
 
                 {/* Right Square Image (2/3 width) */}
-                <div className={`w-2/3 flex flex-col justify-between ${index % 2 === 0 ? "" : "order-first"}`}>
+                <div className={`w-2/3  flex flex-col justify-between ${index % 2 === 0 ? "" : "order-first"}`}>
                 <div>
                 <Swiper
                   modules={[ Pagination, Autoplay]}
                   spaceBetween={10}
                   slidesPerView={1}
                   pagination={{ clickable: true }}
-                  className="w-full h-full shadow-xl"
+                  className="w-full h-screen shadow-xl"
                 >
                   {room.images && room.images.length > 0 ? (
                     room.images.map((img, imgIndex) => (
