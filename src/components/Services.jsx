@@ -66,7 +66,7 @@ const EventsSection = () => {
             data-aos-delay="600"
           > 
             <div>
-              <img src="/images/reception.jpg"  alt=""  className="h-[40vh] w-[30vw]  rounded-tr "  />
+              <img src="/images/events.jpg"  alt=""  className="h-[40vh] w-[30vw]  rounded-tr "  />
             </div>
             <div className='p-5 pt-8 flex-1 flex flex-col gap-5 bg-[#3A4A56] rounded-br'>
               <div className=''>
