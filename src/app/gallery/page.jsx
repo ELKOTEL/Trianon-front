@@ -2,7 +2,7 @@
 "use client";
 import React from 'react';
 import Banner from "../../components/Banner"
-import GalleryGrid from '@/components/GalleryGrid';
+import GalleryGrid from '../../components/GalleryGrid';
 
 const Gallery = () => {
   return (
